@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 67 - Rock paper scissors</title>
+</head>
+<body>
+
+    <h1 id="myH1">Rock - Paper - Scissors</h1>
+
+    <div class="choices">
+        <button class="buttons" id="Rock" onclick="playGame('rock')">👊</button>
+        <button class="buttons" id="Paper" onclick="playGame('paper')">🖐</button>
+        <button class="buttons" id="Scissors" onclick="playGame('scissors')">✌</button>
+    </div>
+
+    <div id="playerDisplay">Player: </div>
+    <div id="computerDisplay">Computer: </div>
+    <div id="resultDisplay">Result: </div>
+    
+    <div class="scoreDisplay">Player Score
+        <span id="playerScore">0</span> 
+    </div>
+    <div class="scoreDisplay" >Computer Score:
+         <span id="computerScore">0</span>
+        </div>
+
+
+    <script src="index.js"></script>   
+</body>
+</html>
